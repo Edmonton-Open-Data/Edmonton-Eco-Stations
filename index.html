@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="libs/dc/dc.css">
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/eco-station.css">
+    <title>Eco Station Dashboard</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="container column1">
+        <!-- Bar Chart -->
+        <div class="subrow-1" id="bar-chart">
+          <span class="reset" style="display: none">Months(s): <span class="filter"></span></span>
+          <a class="reset" style="display:none" href="javascript:barChart.filterAll(); dc.redrawAll();">reset</a>
+        </div>
+        <!-- Line Chart -->
+        <div class="subrow-2" id="line-chart"></div>
+      </div>
+      <div class="container column2">
+        <div class="subrow-1 table-responsive" id="stats-location-table">
+          <!-- Total Display -->
+          <table class="table table-condensed">
+            <thead>
+              <span><span id="total-display"></span><span id="total-users"></span></span>
+            </thead>
+          </table>
+          <!-- Location Table -->
+          <table class="table table-condensed table-bordered">
+            <tbody>
+              <tr><th class="col_0">Eco Station</th><th class="col_1">Region</th><th class="col_2">Address</th></tr>
+              <tr><td class="col_0">Coronation</td><td class="col_1">Northwest</td><td class="col_2">11440 143 Street</td></tr>
+              <tr><td class="col_0">Kennedale</td><td class="col_1">Northeast</td><td class="col_2">5355 127 Avenue</td></tr>
+              <tr><td class="col_0">Strathcona</td><td class="col_1">Central</td><td class="col_2">5150 99 Street</td></tr>
+              <tr><td class="col_0">Ambleside</td><td class="col_1">Southwest</td><td class="col_2">14710 Ellerslie Road</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Pie Chart -->
+        <div class="subrow-2" id="pie-chart">
+          <span class="reset" style="display: none">Year(s): <span class="filter"></span></span>
+          <a class="reset" style="display:none" href="javascript:pieChart.filterAll(); dc.redrawAll();">reset</a>
+        </div>
+      </div>
+      <!-- Data Table -->
+      <div class="container column3 table-responsive">
+        <h1>Monthly Users</h1>
+        <p id="data-count-table"></p>
+        <table id="users-table" class="table table-condensed table-bordered"></table>
+      </div>
+    </div>
+    <script type="text/javascript" src="libs/d3/d3_3517.js"></script>
+    <script type="text/javascript" src="libs/crossfilter/crossfilter.js"></script>
+    <script type="text/javascript" src="libs/dc/dc-202.js"></script>
+    <script type="text/javascript" src="js/eco-station.js"></script>
+  </body>
+</html>
