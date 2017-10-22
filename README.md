@@ -1,4 +1,4 @@
 # Eco Station Users Monthly Dashboard
 
-![](Eco-Station.gif)
+![](Eco-Stations.gif)
 
