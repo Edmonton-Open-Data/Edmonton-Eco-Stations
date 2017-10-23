@@ -9,7 +9,7 @@ Inspiration for project: [DC.js for Data Science Essential Training](https://www
 The frameworks used include:
 [crossfilter.js](http://square.github.io/crossfilter/), [dc.js](https://dc-js.github.io/dc.js/), [d3.js](https://d3js.org/), and [bootstrap.js](https://getbootstrap.com/docs/3.3/javascript/)
 
-Desktop Dashbord: [Eco Station Dashbord](https://mikelotis.github.io/Edmonton-Eco-Stations/)
+Desktop Dashbord: [Eco Station Dashboard](https://mikelotis.github.io/Edmonton-Eco-Stations/)
 
 # Features
 Only the location table isn't dynamic(doesn't update when filters are applied).The components of the dashboard resize when the window is resized. The dashboard constitutes of the following:
@@ -45,6 +45,6 @@ Improvements for the dashboard and potential solutions
 * Lessen the mouse hover delay [tooltipMixin](https://github.com/Intellipharm/dc-addons)
 * Increase the number of viewed data to 72 and add vertical scroll bar for data table 
 * Make the dashboard responsive for mobile and desktop using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/) or use [keenio](https://keen.github.io/dashboards/)
-* Indicate chart extremes(min and max) by appling [boostrap labels](https://getbootstrap.com/docs/3.3/components/#labels)
+* Indicate chart extremes(min and max) by applying [boostrap labels](https://getbootstrap.com/docs/3.3/components/#labels)
 
 
