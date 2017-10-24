@@ -40,7 +40,7 @@ Non-clickable and dynamic table
 * Set to show only 12 months of the 72 months
 * Updates to show corresponding filtered data
 
-# TODO
+# TODOs
 Improvements for the dashboard and potential solutions
 * Lessen the mouse hover delay [tooltipMixin](https://github.com/Intellipharm/dc-addons)
 * Increase the number of viewed data to 72 and add vertical scroll bar for data table 
