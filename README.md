@@ -43,7 +43,8 @@ Non-clickable and dynamic table
 Improvements for the dashboard and potential solutions
 * Lessen the mouse hover delay [tooltipMixin](https://github.com/Intellipharm/dc-addons)
 * Increase the number of viewed data to 72 and add vertical scroll bar for data table 
-* Make the dashboard responsive for mobile and desktop using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/) or use [keenio](https://keen.github.io/dashboards/)
+* Make the dashboard responsive for mobile and desktop using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/)  and [keenio](https://keen.github.io/dashboards/)
 * Indicate chart extremes(min and max) by applying [boostrap labels](https://getbootstrap.com/docs/3.3/components/#labels)
+* Implement [intro.js](http://introjs.com/) for step-by-step guide and feature introduction 
 
 
