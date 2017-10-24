@@ -16,13 +16,13 @@ Only the location table isn't dynamic (doesn't update when filters are applied).
 Clickable bars, elastic y axis, and mouse hover for the bars
 * Shows monthly trend when not filtered (clicked)
 * Mouser hover shows corresponding month and number of users
-* When filtered the line chart(yearly trend), pie chart(yearly composition) and data table update accordingly to show filtered data
+* When filtered the line chart (yearly trend), pie chart (yearly composition) and data table update accordingly to show filtered data
 ## 2 Pie Chart
 Clickable slices and legend rectangles, and mouse hover for the slices and legend rectangles
 * Shows yearly composition when not filtered (clicked)
 * The legend total data updates to correspond to bar chart filters
 * Mouser hover shows corresponding year and percentage for the year
-* When filtered the bar chart(monthly trend) and data table update accordingly to show filtered data
+* When filtered the bar chart (monthly trend) and data table update accordingly to show filtered data
 ## 3 Line Chart
 Elastic y axis, mouse hover on line, and non-clickable
 * Shows the total yearly trend when bar chart is not filtered
@@ -33,7 +33,7 @@ Non-clickable and static table
 ## 5 Number Display
 Non clickable and dynamic number text
 * Shows overall total number of Eco Station users when no filters are applied
-* Updates to show the sum of users corresponding to filter and filters applied
+* Updates to show the sum of users corresponding to filter(s) applied
 ## 6 Data Table
 Non-clickable and dynamic table
 * Set to show only 12 months of the 72 months
@@ -44,7 +44,7 @@ Improvements for the dashboard and potential solutions
 * Lessen the mouse hover delay [tooltipMixin](https://github.com/Intellipharm/dc-addons)
 * Increase the number of viewed data to 72 and add vertical scroll bar for data table 
 * Make the dashboard responsive for mobile and desktop using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/)  and [keenio](https://keen.github.io/dashboards/)
-* Indicate chart extremes (min and max) by applying [boostrap labels](https://getbootstrap.com/docs/3.3/components/#labels)
+* Indicate chart extremes (min and max) by applying [bootstrap labels](https://getbootstrap.com/docs/3.3/components/#labels)
 * Implement [intro.js](http://introjs.com/) for step-by-step guide and feature introduction 
 
 
