@@ -15,31 +15,31 @@ Desktop Dashbord: [Eco Station Dashboard](https://mikelotis.github.io/Edmonton-E
 # Features Summary
 Only the location table isn't dynamic (doesn't update when filters are applied). The components of the dashboard resize when the window is resized. The dashboard constitutes of the following:
 ## 1 Bar chart
-Clickable bars, elastic y axis, and mouse hover for the bars
+* Clickable bars, elastic y axis, and mouse hover for the bars
 * Shows monthly trend when not filtered (clicked)
 * Mouser hover shows corresponding month and number of users
-* When filtered the line chart (yearly trend), pie chart (yearly composition) and data table update accordingly to show filtered data
+* When filtered the line chart (yearly trend), pie chart (yearly composition) and data table update accordingly to reflect filtered data
 ## 2 Pie Chart
-Clickable slices and legend rectangles, and mouse hover for the slices and legend rectangles
+* Clickable and mouse hover for pie slices and legend rectangles
 * Shows yearly composition when not filtered (clicked)
-* The legend total data updates to correspond to bar chart filters
-* Mouser hover shows corresponding year and percentage for the year
-* When filtered the bar chart (monthly trend) and data table update accordingly to show filtered data
+* Legend data updates as per bar chart filters
+* Mouser hover shows corresponding year and percentage
+* Bar chart (monthly trend) and data table update when the chart is filtered
 ## 3 Line Chart
-Elastic y axis, mouse hover on line, and non-clickable
-* Shows the total yearly trend when bar chart is not filtered
-* Updates to show yearly trend for month(s) when bar chart is filtered
+* Elastic y axis and mouse hover on line
+* Shows the **overall** yearly trend when bar chart is not filtered
+* Updates to show yearly trend for clicked month(s)
 ## 4 Location Table
-Non-clickable and static table
+* Static table
 * Shows Eco Station locations within Edmonton
 ## 5 Number Display
-Non clickable and dynamic number text
-* Shows overall total number of Eco Station users when no filters are applied
-* Updates to show the sum of users corresponding to filter(s) applied
+* Dynamic number text
+* Displays **overall** total when no filters are applied
+* Updates to match filtered data
 ## 6 Data Table
-Non-clickable and dynamic table
+* Dynamic table
 * Set to show only 12 months of the 72 months
-* Updates to show corresponding filtered data
+* Updates to match filtered data
 
 # TODOs
 Improvements for the dashboard and potential solutions
@@ -47,6 +47,7 @@ Improvements for the dashboard and potential solutions
 * Increase the number of viewed data to 72 and add vertical scroll bar for data table 
 * Make the dashboard responsive for mobile and desktop using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/)  and [keenio](https://keen.github.io/dashboards/)
 * Indicate chart extremes (min and max) by applying [bootstrap labels](https://getbootstrap.com/docs/3.3/components/#labels)
+* Add chart titles
 * Implement [intro.js](http://introjs.com/) for step-by-step guide and feature introduction 
 
 
