@@ -10,7 +10,7 @@ The frameworks used include:
 
 Desktop Dashbord: [Eco Station Dashboard](https://mikelotis.github.io/Edmonton-Eco-Stations/)
 
-# Features
+# Features Summary
 Only the location table isn't dynamic (doesn't update when filters are applied). The components of the dashboard resize when the window is resized. The dashboard constitutes of the following:
 ## 1 Bar chart
 Clickable bars, elastic y axis, and mouse hover for the bars
