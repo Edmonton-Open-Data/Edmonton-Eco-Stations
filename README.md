@@ -20,7 +20,7 @@ Only the location table isn't dynamic (doesn't update when filters are applied).
 * Mouser hover shows corresponding month and number of users
 * When filtered the line chart (yearly trend), pie chart (yearly composition) and data table update accordingly to reflect filtered data
 ## 2 Pie Chart
-* Clickable and mouse hover for pie slices and legend rectangles
+* Clickable and mouse hover for pie slices
 * Shows yearly composition when not filtered (clicked)
 * Legend data updates as per bar chart filters
 * Mouser hover shows corresponding year and percentage
@@ -31,20 +31,20 @@ Only the location table isn't dynamic (doesn't update when filters are applied).
 * Updates to show yearly trend for clicked month(s)
 ## 4 Location Table
 * Static table
-* Shows Eco Station locations within Edmonton
+* Shows Edmonton's Eco Station locations
 ## 5 Number Display
 * Dynamic number text
 * Displays **overall** total when no filters are applied
 * Updates to match filtered data
 ## 6 Data Table
 * Dynamic table
-* Set to show only 12 months of the 72 months
+* Maximum rows set to twelve
 * Updates to match filtered data
 
 # TODOs
 Improvements for the dashboard and potential solutions
 * Lessen the mouse hover delay [tooltipMixin](https://github.com/Intellipharm/dc-addons)
-* Increase the number of viewed data to 72 and add vertical scroll bar for data table 
+* Increase maximum rows to data length and compliment with [pagination](http://dc-js.github.io/dc.js/examples/table-pagination.html) 
 * Make the dashboard responsive for mobile and desktop using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/)  and [keenio](https://keen.github.io/dashboards/)
 * Indicate chart extremes (min and max) by applying [bootstrap labels](https://getbootstrap.com/docs/3.3/components/#labels)
 * Add chart titles
