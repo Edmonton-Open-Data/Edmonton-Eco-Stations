@@ -44,7 +44,7 @@ Only the location table isn't dynamic (doesn't update when filters are applied).
 # TODOs
 Improvements for the dashboard and potential solutions
 * Lessen the mouse hover delay [tooltipMixin](https://github.com/Intellipharm/dc-addons)
-* Increase maximum rows to data length and compliment with [pagination](http://dc-js.github.io/dc.js/examples/table-pagination.html) 
+* Increase maximum rows to data length and [paginate](http://dc-js.github.io/dc.js/examples/table-pagination.html) the data table 
 * Make the dashboard responsive for mobile and desktop using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/)  and [keenio](https://keen.github.io/dashboards/)
 * Indicate chart extremes (min and max) by applying [bootstrap labels](https://getbootstrap.com/docs/3.3/components/#labels)
 * Add chart titles
