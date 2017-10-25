@@ -81,7 +81,7 @@ d3.json("data/Eco_Station_Monthly_Users.json",function(error,entries){
     graphs();
 
 
-    //Draw the Charts upon windows resize
+    //Draw the Charts upon window resize
     d3.select(window)
         .on("resize",graphs);
 
