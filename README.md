@@ -8,7 +8,7 @@ Inspiration for project: [DC.js for Data Science Essential Training](https://www
 The frameworks used include:
 [crossfilter.js](http://square.github.io/crossfilter/), [dc.js](https://dc-js.github.io/dc.js/), [d3.js](https://d3js.org/), and [bootstrap.js](https://getbootstrap.com/docs/3.3/javascript/)
 
-**Desktop Dashbord: [Eco Station Dashboard!](https://mikelotis.github.io/Edmonton-Eco-Stations/)**
+Desktop Dashbord: [***ECO STATION DASHBOARD***](https://mikelotis.github.io/Edmonton-Eco-Stations/)
 
 ***Note: CLICKABLE ELEMENTS AND MOUSE HOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
 
