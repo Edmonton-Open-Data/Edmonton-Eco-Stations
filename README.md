@@ -14,29 +14,29 @@ Desktop Dashbord: [***ECO STATION DASHBOARD***](https://mikelotis.github.io/Edmo
 
 # Features Summary
 Only the location table isn't dynamic (doesn't update when filters are applied). Dashboard components resize when browser window is resized. [***ECO STATION DASHBOARD***](https://mikelotis.github.io/Edmonton-Eco-Stations/) constitutes of the following:
-## 1 Bar chart (monthly trend)
+## 1. Bar chart (monthly trend)
 * Clickable bars, elastic y axis, and mouse hover on bars
 * Shows monthly trend when not filtered (clicked)
 * Mouser hover shows corresponding month and number of users
 * When filtered the line chart, pie chart, and data table update accordingly to reflect filtered data
-## 2 Pie Chart (yearly composition)
+## 2. Pie Chart (yearly composition)
 * Clickable and mouse hover for pie slices
 * Shows yearly composition when not filtered (clicked)
 * Legend data updates as per bar chart filters
 * Mouser hover shows corresponding year and percentage
 * Bar chart and data table update when the chart is filtered
-## 3 Line Chart (yearly trend)
+## 3. Line Chart (yearly trend)
 * Elastic y axis and mouse hover on line
 * Shows the **overall** total trend when bar chart is not filtered
 * Updates to show yearly trend for clicked month(s)
-## 4 Location Table
+## 4. Location Table
 * Static table
 * Shows Edmonton's Eco Station locations
-## 5 Number Display
+## 5. Number Display
 * Dynamic number text
 * Displays **overall** total when no filters are applied
 * Updates to match filtered data
-## 6 Data Table
+## 6. Data Table
 * Dynamic table
 * Maximum rows set to twelve
 * Updates to match filtered data
