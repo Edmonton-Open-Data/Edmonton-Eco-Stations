@@ -2,7 +2,7 @@
 ![](Eco-Stations.gif)
 
 # Dashboard Summary
-Uses data acquired from [Open Data (City of Edmonton)](https://dashboard.edmonton.ca/Dashboard/Eco-Station-Users-Monthly/2zer-fm7k) to analyze the yealry and monthly trend of Eco Station users. Users can filter by month(s) or by year(s) to view desired trends. Filterable charts and the dashboard have a reset method. 2017 data is not included in this example. 72 rows are selected out of the 80 rows.
+Uses data acquired from [Open Data (City of Edmonton)](https://dashboard.edmonton.ca/Dashboard/Eco-Station-Users-Monthly/2zer-fm7k) to analyze yealry and monthly trend of Eco Station users. Users can filter by month(s) or by year(s) to view desired trends. Filterable charts and the dashboard have a reset method. 2017 data is not included in this example. 72 rows are selected out of 80 rows.
 
 Inspiration for project: [DC.js for Data Science Essential Training](https://www.lynda.com/JavaScript-tutorials/DC-js-Data-Science-Essential-Training/540535-2.html)<br>
 The frameworks used include:
@@ -13,21 +13,21 @@ Desktop Dashbord: [***ECO STATION DASHBOARD***](https://mikelotis.github.io/Edmo
 ***Note: CLICKABLE ELEMENTS AND MOUSE HOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
 
 # Features Summary
-Only the location table isn't dynamic (doesn't update when filters are applied). The components of the dashboard resize when the window is resized. The dashboard constitutes of the following:
-## 1 Bar chart
-* Clickable bars, elastic y axis, and mouse hover for the bars
+Only the location table isn't dynamic (doesn't update when filters are applied). Dashboard components resize when browser window is resized. [***ECO STATION DASHBOARD***](https://mikelotis.github.io/Edmonton-Eco-Stations/) constitutes of the following:
+## 1 Bar chart (monthly trend)
+* Clickable bars, elastic y axis, and mouse hover on bars
 * Shows monthly trend when not filtered (clicked)
 * Mouser hover shows corresponding month and number of users
-* When filtered the line chart (yearly trend), pie chart (yearly composition) and data table update accordingly to reflect filtered data
-## 2 Pie Chart
+* When filtered the line chart, pie chart, and data table update accordingly to reflect filtered data
+## 2 Pie Chart (yearly composition)
 * Clickable and mouse hover for pie slices
 * Shows yearly composition when not filtered (clicked)
 * Legend data updates as per bar chart filters
 * Mouser hover shows corresponding year and percentage
-* Bar chart (monthly trend) and data table update when the chart is filtered
-## 3 Line Chart
+* Bar chart and data table update when the chart is filtered
+## 3 Line Chart (yearly trend)
 * Elastic y axis and mouse hover on line
-* Shows the **overall** yearly trend when bar chart is not filtered
+* Shows the **overall** total trend when bar chart is not filtered
 * Updates to show yearly trend for clicked month(s)
 ## 4 Location Table
 * Static table
