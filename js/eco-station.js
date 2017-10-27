@@ -78,23 +78,32 @@ d3.json("data/Eco_Station_Monthly_Users.json",function(error,entries){
 
 
     //Draw Bar, Line, and Pie Charts 
-    graphs();
+    charts();
 
 
     //Draw the Charts upon window resize
     d3.select(window)
-        .on("resize",graphs);
+        .on("resize",charts);
 
 
-    function graphs() {
+    function charts() {
 
-        var graphMargin = {top:20,right:12,bottom:20,left:50};// for Bar and Line
-        var yearsArray = yearGroupLine.all();
+        var graphMargin = {top:20,right:12,bottom:20,left:50};// for barChart and lineChart
+        var yearsArray = yearGroupLine.all();// for lineChart domain
+        
+        //Width and Height for charts
+        var barChartWidth = getOffsetSizes("#bar-chart").width;
+        var barChartHeight = getOffsetSizes("#bar-chart").height;
+        var lineChartWidth = getOffsetSizes("#line-chart").width;
+        var lineChartHeight = getOffsetSizes("#line-chart").height;
+        var pieChartWidth = getOffsetSizes("#pie-chart").width;
+        var pieChartHeight = getOffsetSizes("#pie-chart").height;
+       
 
 
         //Bar
-        barChart.width(getOffsetSizes("#bar-chart").width)
-                .height(getOffsetSizes("#bar-chart").height)
+        barChart.width(barChartWidth)
+                .height(barChartHeight)
                 .barPadding(0.02)
                 .outerPadding(0)
                 .clipPadding(30)
@@ -109,8 +118,8 @@ d3.json("data/Eco_Station_Monthly_Users.json",function(error,entries){
         //line
         lineChart.dimension(yearDimension)
                     .group(yearGroupLine)
-                    .width(getOffsetSizes("#line-chart").width)
-                    .height(getOffsetSizes("#line-chart").height)
+                    .width(lineChartWidth)
+                    .height(lineChartHeight)
                     .margins(graphMargin)
                     .elasticY(true)
                     .brushOn(false)
@@ -125,13 +134,13 @@ d3.json("data/Eco_Station_Monthly_Users.json",function(error,entries){
         //pie
         pieChart.dimension(yearDimension)
                 .group(yearGroupPie)
-                .width(getOffsetSizes("#pie-chart").width)
-                .height(getOffsetSizes("#pie-chart").height)
+                .width(pieChartWidth)
+                .height(pieChartHeight)
                 .externalLabels(10)
-                .innerRadius(Math.round((getOffsetSizes("#pie-chart").height) * 0.2, 1))
-                .cx(Math.round((getOffsetSizes("#pie-chart").width) * 0.6, 1))
-                .cy(Math.round((getOffsetSizes("#pie-chart").height) * 0.5, 1))
-                .radius(Math.round((getOffsetSizes("#pie-chart").height) * 0.325, 1))
+                .innerRadius(Math.round((pieChartHeight) * 0.2, 1))
+                .cx(Math.round((pieChartWidth)) * 0.6, 1))
+                .cy(Math.round((pieChartHeight) * 0.5, 1))
+                .radius(Math.round((pieChartHeight) * 0.325, 1))
                 .label(function(d) { return d.value.toFixed(2) + '%'; })
                 .title(function(d) { return d.key+': '+ (Math.round((d.value/100) * sumOfUsersReduced, 1)).toLocaleString(); })
                 .legend(dc.legend())
