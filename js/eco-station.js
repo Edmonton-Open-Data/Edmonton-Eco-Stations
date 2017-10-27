@@ -123,8 +123,12 @@ d3.json("data/Eco_Station_Monthly_Users.json",function(error,entries){
                     .margins(graphMargin)
                     .elasticY(true)
                     .brushOn(false)
-                    .x(d3.scale.linear().domain([d3.min(yearsArray, function(d) { return d.key; }),
-                                                d3.max(yearsArray, function(d) { return d.key; })]))
+                    .x(d3.scale.linear()
+                         .domain([
+                                 d3.min(yearsArray, function(d) { return d.key; }),
+                                 d3.max(yearsArray, function(d) { return d.key; })
+                                ])
+                      )
                     .renderArea(true)
                     .xAxis()
                     .tickFormat(d3.format(".0f"))
