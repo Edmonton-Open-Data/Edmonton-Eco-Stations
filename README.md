@@ -49,6 +49,7 @@ Improvements for the dashboard and potential solutions
 * Increase maximum rows to data length and [paginate](http://dc-js.github.io/dc.js/examples/table-pagination.html) the data table 
 * Make the dashboard responsive for mobile and desktop using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/)  and [keenio](https://keen.github.io/dashboards/)
 * Indicate chart extremes (min and max) by applying [bootstrap labels](https://getbootstrap.com/docs/3.3/components/#labels)
+* Reduce the number of ticks for the line chart
 * Implement [intro.js](http://introjs.com/) for step-by-step guide and feature introduction 
 * Lear from [Anmol Koul](https://anmolkoul.wordpress.com/2015/06/05/interactive-data-visualization-using-d3-js-dc-js-nodejs-and-mongodb/)
 
