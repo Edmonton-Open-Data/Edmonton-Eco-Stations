@@ -9,7 +9,7 @@ The frameworks used include:
 [crossfilter.js](http://square.github.io/crossfilter/), [dc.js](https://dc-js.github.io/dc.js/), [d3.js](https://d3js.org/), and [bootstrap.js](https://getbootstrap.com/docs/3.3/javascript/)
 
 Desktop Dashbord: [***ECO STATION DASHBOARD***](https://mikelotis.github.io/Edmonton-Eco-Stations/)
-<a href="https://mikelotis.github.io/Edmonton-Eco-Stations/" rel="noopener noreferrer" target="_blank">***ECO STATION DASHBOARD***</a>
+<a href="https://mikelotis.github.io/Edmonton-Eco-Stations/" target="_blank">***ECO STATION DASHBOARD***</a>
 
 ***Note: CLICKABLE ELEMENTS AND MOUSE HOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
 
