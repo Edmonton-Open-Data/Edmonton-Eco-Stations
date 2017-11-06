@@ -59,22 +59,22 @@ d3.json("data/Eco_Station_Monthly_Users.json",function(error,entries){
 
     //filter printer
     dataCountTable.dimension(facts)
-                    .group(facts.groupAll())
-                    .html({some: "<strong>%filter-count</strong> months(s) selected out of <strong>%total-count</strong> months. | "+
-                                '<a href= "\javascript:dc.filterAll(); dc.renderAll();\">Reset All</a>',
-                            all: "All records selected. Please click on the graph to apply filters."});
+                  .group(facts.groupAll())
+                  .html({some: "<strong>%filter-count</strong> months(s) selected out of <strong>%total-count</strong> months. | "+
+                              '<a href= "\javascript:dc.filterAll(); dc.renderAll();\">Reset All</a>',
+                          all: "All records selected. Please click on the graph to apply filters."});
 
 
     //Data table
     dataTable.dimension(yearDimension)
-                .group(function(d) { return d.year; })
-                .showGroups(false)
-                .columns(["id",
-                        {label:"Month/Year",format: function(d) { return monthNames[d.month] +' '+d.year }},
-                        {label:"Users",format:function(d) { return d.of_users; }}])
-                .size(12)
-                .sortBy(function(d) { return d.id; })
-                .order(d3.ascending);
+             .group(function(d) { return d.year; })
+             .showGroups(false)
+             .columns(["id",
+                     {label:"Month/Year",format: function(d) { return monthNames[d.month] +' '+d.year }},
+                     {label:"Users",format:function(d) { return d.of_users; }}])
+             .size(12)
+             .sortBy(function(d) { return d.id; })
+             .order(d3.ascending);
 
 
     //Draw Bar, Line, and Pie Charts 
@@ -117,22 +117,22 @@ d3.json("data/Eco_Station_Monthly_Users.json",function(error,entries){
 
         //line
         lineChart.dimension(yearDimension)
-                    .group(yearGroupLine)
-                    .width(lineChartWidth)
-                    .height(lineChartHeight)
-                    .margins(graphMargin)
-                    .elasticY(true)
-                    .brushOn(false)
+                 .group(yearGroupLine)
+                 .width(lineChartWidth)
+                 .height(lineChartHeight)
+                 .margins(graphMargin)
+                 .elasticY(true)
+                 .brushOn(false)
                     .x(d3.scale.linear()
                          .domain([
                                  d3.min(yearsArray, function(d) { return d.key; }),
                                  d3.max(yearsArray, function(d) { return d.key; })
                                 ])
                       )
-                    .renderArea(true)
-                    .xAxis()
-                    .tickFormat(d3.format(".0f"))
-                    .ticks(6);
+                 .renderArea(true)
+                 .xAxis()
+                 .tickFormat(d3.format(".0f"))
+                 .ticks(6);
 
 
         //pie
