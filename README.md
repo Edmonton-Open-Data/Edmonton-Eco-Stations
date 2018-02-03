@@ -7,6 +7,7 @@ Uses data acquired from [Open Data (City of Edmonton)](https://dashboard.edmonto
 Inspiration for project: [DC.js for Data Science Essential Training](https://www.lynda.com/JavaScript-tutorials/DC-js-Data-Science-Essential-Training/540535-2.html) and [Crossfilter Data Science Essential Training](https://www.lynda.com/JavaScript-tutorials/Crossfilter-Data-Science-Essential-Training/540534-2.html)<br>
 The frameworks used include:
 [crossfilter.js](http://square.github.io/crossfilter/), [dc.js](https://dc-js.github.io/dc.js/), [d3.js](https://d3js.org/), and [bootstrap.js](https://getbootstrap.com/docs/3.3/javascript/)
+Best viewed in: Google Chrome
 
 Desktop Dashbord: [*****ECO STATION DASHBOARD (CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Eco-Stations/)
 
@@ -45,6 +46,7 @@ Only the location table isn't dynamic (doesn't update when filters are applied).
 Improvements for the dashboard and potential solutions
 - [ ] Add chart titles
 - [ ] Replace static table with leaflet static map
+- [ ] Update the [data](https://dashboard.edmonton.ca/Dashboard/Eco-Station-Users-Monthly/2zer-fm7k)
 - [ ] Lessen the mouseover delay [tooltipMixin](https://github.com/Intellipharm/dc-addons)
 - [ ] Increase maximum rows to data length and [paginate](http://dc-js.github.io/dc.js/examples/table-pagination.html) the data table 
 - [ ] Make the dashboard responsive for mobile and desktop using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/)  and [keenio](https://keen.github.io/dashboards/)
