@@ -6,7 +6,7 @@ Uses data acquired from [Open Data (City of Edmonton)](https://dashboard.edmonto
 
 Inspiration for project: [DC.js for Data Science Essential Training](https://www.lynda.com/JavaScript-tutorials/DC-js-Data-Science-Essential-Training/540535-2.html) and [Crossfilter Data Science Essential Training](https://www.lynda.com/JavaScript-tutorials/Crossfilter-Data-Science-Essential-Training/540534-2.html)<br>
 The frameworks used include:
-[crossfilter.js](http://square.github.io/crossfilter/), [dc.js](https://dc-js.github.io/dc.js/), [d3.js](https://d3js.org/), and [bootstrap.js](https://getbootstrap.com/docs/3.3/javascript/)
+[crossfilter.js](http://square.github.io/crossfilter/), [dc.js](https://dc-js.github.io/dc.js/), [d3.js](https://d3js.org/), and [bootstrap.js](https://getbootstrap.com/docs/3.3/javascript/)<br>
 Best viewed in: Google Chrome
 
 Desktop Dashbord: [*****ECO STATION DASHBOARD (CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Eco-Stations/)
