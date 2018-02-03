@@ -2,7 +2,7 @@
 ![](Eco-Stations.gif)
 
 # Dashboard Summary
-Uses data acquired from [Open Data (City of Edmonton)](https://dashboard.edmonton.ca/Dashboard/Eco-Station-Users-Monthly/2zer-fm7k) to analyze yearly and monthly trends of Eco Station users. Users can filter by month(s) or by year(s) to view desired trends. Filterable charts and the dashboard have a reset method. 2017 data is not included in this example. 72 rows are selected out of 80 rows.
+Uses data acquired from [Open Data (City of Edmonton)](https://dashboard.edmonton.ca/Dashboard/Eco-Station-Users-Monthly/2zer-fm7k) to analyze yearly and monthly trends of Eco Station users. Users can filter by month(s) or by year(s) to view desired trends. Filterable charts and the dashboard have a reset method. 2017 data is not included in this example and 72 rows are selected out of 80 rows.
 
 Inspiration for project: [DC.js for Data Science Essential Training](https://www.lynda.com/JavaScript-tutorials/DC-js-Data-Science-Essential-Training/540535-2.html) and [Crossfilter Data Science Essential Training](https://www.lynda.com/JavaScript-tutorials/Crossfilter-Data-Science-Essential-Training/540534-2.html)<br>
 The frameworks used include:
