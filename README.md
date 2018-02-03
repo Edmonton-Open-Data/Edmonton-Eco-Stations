@@ -42,7 +42,7 @@ Only the location table isn't dynamic (doesn't update when filters are applied).
 * Maximum rows set to twelve
 * Updates to match filtered data
 
-# TODOs
+# To-do's
 Improvements for the dashboard and potential solutions
 - [ ] Add chart titles
 - [ ] Replace static table with leaflet static map
