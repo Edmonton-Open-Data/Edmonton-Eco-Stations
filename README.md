@@ -9,12 +9,12 @@ The frameworks used include:
 [crossfilter.js](http://square.github.io/crossfilter/), [dc.js](https://dc-js.github.io/dc.js/), [d3.js](https://d3js.org/), and [bootstrap.js](https://getbootstrap.com/docs/3.3/javascript/)<br>
 Best viewed in: Google Chrome
 
-Desktop Dashbord: [*****ECO STATION DASHBOARD (CLICK ME!)*****](https://mikelotis.github.io/Edmonton-Eco-Stations/)
+Desktop Dashbord: [*****ECO STATION DASHBOARD (CLICK ME!)*****](https://edmonton-open-data.github.io/Edmonton-Eco-Stations/index.html)
 
 ***Note: CLICKABLE ELEMENTS AND MOUSEOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
 
 # Features Summary
-Only the location table isn't dynamic (doesn't update when filters are applied). Dashboard components resize when browser window is resized. [***ECO STATION DASHBOARD***](https://mikelotis.github.io/Edmonton-Eco-Stations/) constitutes of the following:
+Only the location table isn't dynamic (doesn't update when filters are applied). Dashboard components resize when browser window is resized. [***ECO STATION DASHBOARD***](https://edmonton-open-data.github.io/Edmonton-Eco-Stations/index.html) constitutes of the following:
 ## 1. Bar chart (monthly trend)
 * Clickable bars, elastic y axis, and mouseover on bars
 * Shows monthly trend when not filtered (clicked)
