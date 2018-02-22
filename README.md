@@ -9,8 +9,8 @@ The frameworks used include:
 [crossfilter.js](http://square.github.io/crossfilter/), [dc.js](https://dc-js.github.io/dc.js/), [d3.js](https://d3js.org/), and [bootstrap.js](https://getbootstrap.com/docs/3.3/javascript/)<br>
 Best viewed in: Google Chrome
 
-Desktop Dashbord I: [*****ECO STATION DASHBOARD (CLICK ME!)*****](https://edmonton-open-data.github.io/Edmonton-Eco-Stations/index.html)
-Desktop Dashbord II: [*****ECO STATION DASHBOARD I (CLICK ME!)*****](https://edmonton-open-data.github.io/Edmonton-Eco-Stations/index.html)
+Desktop Dashbord I: [*****ECO STATION DASHBOARD (CLICK ME!)*****](https://edmonton-open-data.github.io/Edmonton-Eco-Stations/index.html)<br>
+Desktop Dashbord II: [*****ECO STATION DASHBOARD II (CLICK ME!)*****](https://github.com/Edmonton-Open-Data/Eco-Station-II#eco-station-ii)
 
 ***Note: CLICKABLE ELEMENTS AND MOUSEOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
 
