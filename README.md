@@ -9,7 +9,8 @@ The frameworks used include:
 [crossfilter.js](http://square.github.io/crossfilter/), [dc.js](https://dc-js.github.io/dc.js/), [d3.js](https://d3js.org/), and [bootstrap.js](https://getbootstrap.com/docs/3.3/javascript/)<br>
 Best viewed in: Google Chrome
 
-Desktop Dashbord: [*****ECO STATION DASHBOARD (CLICK ME!)*****](https://edmonton-open-data.github.io/Edmonton-Eco-Stations/index.html)
+Desktop Dashbord I: [*****ECO STATION DASHBOARD (CLICK ME!)*****](https://edmonton-open-data.github.io/Edmonton-Eco-Stations/index.html)
+Desktop Dashbord II: [*****ECO STATION DASHBOARD I (CLICK ME!)*****](https://edmonton-open-data.github.io/Edmonton-Eco-Stations/index.html)
 
 ***Note: CLICKABLE ELEMENTS AND MOUSEOVER, ARE DRIVERS IN REVEALING DATA INSIGHT***
 
@@ -44,14 +45,13 @@ Only the location table isn't dynamic (doesn't update when filters are applied).
 
 # To-do's
 Improvements for the dashboard and potential solutions
-- [ ] Add chart titles
-- [ ] Replace static table with leaflet static map
+- [x] Add chart titles
+- [x] Replace static table with leaflet static map
 - [ ] Update the [data](https://dashboard.edmonton.ca/Dashboard/Eco-Station-Users-Monthly/2zer-fm7k)
 - [ ] Lessen the mouseover delay [tooltipMixin](https://github.com/Intellipharm/dc-addons)
-- [ ] Increase maximum rows to data length and [paginate](http://dc-js.github.io/dc.js/examples/table-pagination.html) the data table 
-- [ ] Make the dashboard responsive for mobile and desktop using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/)  and [keenio](https://keen.github.io/dashboards/)
+- [ ] Use the [nav](https://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior) to include both the data table and leaflet map 
+- [x] Make the dashboard responsive for mobile and desktop using [aspect ratio](https://blog.webkid.io/responsive-chart-usability-d3/)  and [keenio](https://keen.github.io/dashboards/)
 - [ ] Indicate chart extremes (min and max) by applying [bootstrap labels](https://getbootstrap.com/docs/3.3/components/#labels)
-- [ ] Reduce the number of ticks for the line chart
 - [ ] Implement [intro.js](http://introjs.com/) for step-by-step guide and feature introduction 
 - [ ] Learn from [Anmol Koul](https://anmolkoul.wordpress.com/2015/06/05/interactive-data-visualization-using-d3-js-dc-js-nodejs-and-mongodb/)
 
